@@ -15,7 +15,7 @@
 
         Number_layer {
             bindings = <
-&trans  &trans  &bt BT_NXT  &kp BACKSPACE  &trans  &trans  &trans  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &bt BT_CLR
+&trans  &bt BT_PRV  &bt BT_NXT  &kp BACKSPACE  &bt BT_PRV  &bt BT_NXT  &trans  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bootloader  &bt BT_CLR
             >;
 
             label = "NUMBER";
